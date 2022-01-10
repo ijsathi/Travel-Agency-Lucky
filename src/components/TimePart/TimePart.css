@@ -9,5 +9,5 @@
     background: linear-gradient(#8ec3eb,rgba(66, 65, 65, 0.7));
     border-style: outset;
     border: 15px solid linear-gradient(white,rgba(66, 65, 65, 0.7));
-    border-radius: 30px;
+    border-radius: 50%;
 }

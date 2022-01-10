@@ -1,0 +1,15 @@
+.text-part{
+    padding: 30px;
+}
+.text-part h1{
+    font-family: "Playfair Display SC",serif;
+    letter-spacing: .02em;
+    font-weight: 400;
+}
+.title{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+}
+.car{
+    padding-left: 20px;
+}
