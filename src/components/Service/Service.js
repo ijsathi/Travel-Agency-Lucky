@@ -14,8 +14,8 @@ const Service = () => {
         <>
         <div id='service' className="text-part d-flex justify-content-center">
             <div className=" w-50 text-center">
-            <h1>We choose for you</h1>
-            <p>Travel agents offer advice on destinations, plan trip itineraries, and make travel arrangements for clients. Travel agents sell transportation, lodging, and admission to entertainment activities to individuals and groups planning trips.</p>
+            <h1>We choose for you</h1><span className="s"></span>
+            <p style={{ padding:"8px" }}>Travel agents offer advice on destinations, plan trip itineraries, and make travel arrangements for clients. Travel agents sell transportation, lodging, and admission to entertainment activities to individuals and groups planning trips.</p>
             </div>
         </div>
             <Row xs={1} md={3} className="g-4 w-100 car">

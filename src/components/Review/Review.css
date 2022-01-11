@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+.r{
+    padding-left: 10px;
+    padding-top: 90px;
+    font-family: "Playfair Display SC",serif;
+}
+.d{
+    width: 200px;
+    height: 1px;
+    background: #000;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.review{
+    display: flex;  
+}
+.review-part{
+    width: 400px;
+    border: 1px solid white;
+    text-align: center;
+    align-items: start;
+    vertical-align: start;
+    margin: 20px;
+}
+.text1{
+    padding-top: 20px;
+}
+
