@@ -12,7 +12,7 @@ const Service = () => {
     ), [])
     return (
         <>
-        <div id='service' className="text-part d-flex justify-content-center">
+        <div id='service' className="text-part d-flex justify-content-center mb-5">
             <div className=" w-50 text-center">
             <h1>We choose for you</h1><span className="s"></span>
             <p style={{ padding:"8px" }}>Travel agents offer advice on destinations, plan trip itineraries, and make travel arrangements for clients. Travel agents sell transportation, lodging, and admission to entertainment activities to individuals and groups planning trips.</p>

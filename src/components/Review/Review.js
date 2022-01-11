@@ -4,20 +4,19 @@ import './Review.css';
 const Review = () => {
     return (
         <>
-        <div className="r">
-            <h1 style={{fontFamily: "quentin",fontSize:" 80px",lineHeight: "15.5px", fontWeight: 400,fontStyle: "initial",letterSpacing: "-1px", textAlign:" center", color: "#d4d4d4"}}>𝐼𝓂𝓅𝓇𝑒𝓈𝓈𝒾𝑜𝓃𝓈</h1>
-            <h1 style={{padding:"50px", textAlign:"center"}}>
+        <div style={{marginTop:"150px"}} className="r ">
+            <div className="">
+            <h1 className='imp'>𝐼𝓂𝓅𝓇𝑒𝓈𝓈𝒾𝑜𝓃𝓈</h1>
+            <h1 style={{paddingTop:"50px", textAlign:"center"}}>
             Thank you for the reviews we are proud of
             </h1>
-            <span className="d">
-                
-            </span>
+            <span className="d"></span>
             <div className="review">
                 <div className="review-part">
                     <div className="img1">
                         <img src="https://bonvoyage.qodeinteractive.com/wp-content/uploads/2018/02/testimonials-img-2-100x100.png" alt="" />
                     </div>
-                    <div className="text1">
+                    <div className="text1 w-100">
                         <h3>
                             PARIS IN AWESOME
                         </h3>
@@ -34,7 +33,7 @@ const Review = () => {
                     <div className="img1">
                         <img src="https://bonvoyage.qodeinteractive.com/wp-content/uploads/2018/03/team-img-4-100x100.png" alt="" />
                     </div>
-                    <div className="text1">
+                    <div className="text1 w-100">
                         <h3>
                             BALI WAS MY DREAM
                         </h3>
@@ -51,7 +50,7 @@ const Review = () => {
                     <div className="img1">
                         <img src="https://bonvoyage.qodeinteractive.com/wp-content/uploads/2018/02/testimonials-img-1-100x100.png" alt="" />
                     </div>
-                    <div className="text1">
+                    <div className="text1 w-100">
                         <h3>
                             THAILAND PARADISE
                         </h3>
@@ -64,6 +63,7 @@ const Review = () => {
                         <p style={{ color: "orange" }}><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
             
