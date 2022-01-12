@@ -26,7 +26,7 @@ const Review = () => {
                         <h6 className='fw-bold'>
                             Daniel Ferguson
                         </h6>
-                        <p style={{ color: "orange" }}><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                        <p style={{ color: "orange" }}><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i></p>
                     </div>
                 </div>
                 <div className="review-part">
@@ -43,7 +43,7 @@ const Review = () => {
                         <h6 className='fw-bold'>
                             Evelyn Jenkins
                         </h6>
-                        <p style={{ color: "orange" }}><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p style={{ color: "orange" }}><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i></p>
                     </div>
                 </div>
                 <div className="review-part">
@@ -60,7 +60,7 @@ const Review = () => {
                         <h6 className='fw-bold'>
                             Melisa Thomas
                         </h6>
-                        <p style={{ color: "orange" }}><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p style={{ color: "orange" }}><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i></p>
                     </div>
                 </div>
             </div>

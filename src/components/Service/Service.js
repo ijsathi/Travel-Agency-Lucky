@@ -24,16 +24,16 @@ const Service = () => {
                         <>
                             <Col>
                                 <Card>
-                                    <Card.Img style={{ height:"270px" }} variant="top" src={dt.img} />
+                                    <Card.Img className='car-img' style={{ height:"270px" }} variant="top" src={dt.img} />
                                     <Card.Body>
                                         <Card.Title className='title'>{dt.name}  /  ${dt.price}</Card.Title>
                                         <Card.Text>
                                             {dt.desc}
                                         </Card.Text> <hr />
-                                        <p style={{color:"#565656"}}> <i style={{paddingRight:"5px"}} class="fas fa-history"></i>{dt.time} 
+                                        <p style={{color:"#565656"}}> <i style={{paddingRight:"5px"}} className="fas fa-history"></i>{dt.time} 
                                         
-                                        <span style={{paddingLeft:"18px"}}> <i style={{paddingRight:"4px"}} class="fas fa-user"></i>{dt.people}+</span>
-                                        <span style={{paddingLeft:"84px"}}><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></span> </p>
+                                        <span style={{paddingLeft:"18px"}}> <i style={{paddingRight:"4px"}} className="fas fa-user"></i>{dt.people}+</span>
+                                        <span style={{paddingLeft:"84px"}}><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i><i className="far fa-star"></i></span> </p>
                                     </Card.Body>
                                 </Card>
                             </Col>
