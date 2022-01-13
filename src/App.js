@@ -1,6 +1,8 @@
 import './App.css';
+import About from './components/About/About';
 import Banner from './components/Banner/Banner';
 import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Review from './components/Review/Review';
@@ -16,6 +18,8 @@ function App() {
      <Service />
      <Review />
      <Blog />
+     <About />
+     <Contact />
      <Footer />
     </div>
   );

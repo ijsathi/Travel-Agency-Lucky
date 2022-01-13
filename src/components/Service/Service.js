@@ -33,7 +33,7 @@ const Service = () => {
                                         <p style={{color:"#565656"}}> <i style={{paddingRight:"5px"}} className="fas fa-history"></i>{dt.time} 
                                         
                                         <span style={{paddingLeft:"18px"}}> <i style={{paddingRight:"4px"}} className="fas fa-user"></i>{dt.people}+</span>
-                                        <span style={{paddingLeft:"84px"}}><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i><i className="far fa-star"></i></span> </p>
+                                        <span style={{paddingLeft:"84px"}}><i className="fas fa-star ss"></i><i className="fas fa-star ss"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i><i className="far fa-star"></i></span> </p>
                                     </Card.Body>
                                 </Card>
                             </Col>

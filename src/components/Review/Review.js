@@ -4,7 +4,7 @@ import './Review.css';
 const Review = () => {
     return (
         <>
-        <div style={{marginTop:"150px"}} className="r ">
+        <div id='blog' style={{marginTop:"150px"}} className="r ">
             <div className="">
             <h1 className='imp'>𝐼𝓂𝓅𝓇𝑒𝓈𝓈𝒾𝑜𝓃𝓈</h1>
             <h1 style={{paddingTop:"50px", textAlign:"center"}}>
