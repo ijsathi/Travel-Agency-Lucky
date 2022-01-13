@@ -8,7 +8,8 @@ const Blog = () => {
             <div className="blog">
                 <img src="https://i.ibb.co/k62m7tL/300-3002152-trendy-coconut-coconut-water-hd-png-download-removebg-preview.png" alt="" />
             </div>
-            <Container>
+            <Container  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                 <Row>
                     <Col>
                         <h1>FEEL THE VIBE</h1>

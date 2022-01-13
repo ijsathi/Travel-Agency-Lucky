@@ -5,7 +5,7 @@ import './About.css';
 const About = () => {
     return (
         <>
-            <div id='about' style={{marginTop:"100px"}} className="about">
+            <div data-aos="zoom-in-up" id='about' style={{marginTop:"100px"}} className="about">
             <h1 className='about-t'>𝒲𝑒𝓁𝒸𝑜𝓂𝑒</h1>
             <Container className='p-5'>
                 <Row>
